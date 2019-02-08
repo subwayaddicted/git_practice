@@ -16,6 +16,22 @@
       <script src="https://oss.maxcdn.com/html5shiv/3.7.3/html5shiv.min.js"></script>
       <script src="https://oss.maxcdn.com/respond/1.4.2/respond.min.js"></script>
     <![endif]-->
+    <!-- script/style slider -->
+        <link rel="stylesheet" type="text/css" href="slick/slick.css"/>
+        <link rel="stylesheet" type="text/css" href="slick/slick-theme.css"/>
+
+        <script type="text/javascript" src="//code.jquery.com/jquery-1.11.0.min.js"></script>
+        <script type="text/javascript" src="//code.jquery.com/jquery-migrate-1.2.1.min.js"></script>
+        <script type="text/javascript" src="slick/slick.min.js"></script>
+
+        <script>
+            $(document).ready(function(){
+                $('.galery-slider').slick({
+                    setting-name: setting-value
+                });
+            });
+        </script>
+    <!--  -->
   </head>
   <body>
     <h1>Hello, world!</h1>
@@ -24,5 +40,10 @@
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.4/jquery.min.js"></script>
     <!-- Include all compiled plugins (below), or include individual files as needed -->
     <script src="js/bootstrap.min.js"></script>
+    <div class="galery-slider">
+        <div>your content</div>
+        <div>your content</div>
+        <div>your content</div>
+    </div>
   </body>
 </html>
