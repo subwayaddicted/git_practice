@@ -53,6 +53,10 @@
     </div>
     <!-- Copyright -->
     </footer>
-
+    <div class="galery-slider">
+        <div>your content</div>
+        <div>your content</div>
+        <div>your content</div>
+    </div>
   </body>
 </html>
