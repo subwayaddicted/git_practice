@@ -49,7 +49,7 @@
     <!-- Footer Links -->
     <!-- Copyright -->
     <div class="footer-copyright text-center py-3">© 2019 Copyright:
-      <a href="#"> Git Practice</a>
+      <a href="#"> Facebook</a>
     </div>
     <!-- Copyright -->
     </footer>
