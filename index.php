@@ -22,7 +22,7 @@
 
         <script type="text/javascript" src="//code.jquery.com/jquery-1.11.0.min.js"></script>
         <script type="text/javascript" src="//code.jquery.com/jquery-migrate-1.2.1.min.js"></script>
-        <script type="text/javascript" src="slick/slick.min.js"></script>
+        <script type="text/javascript" src="slick-1.8.1/slick/slick.min.js"></script>
 
         <script>
             $(document).ready(function(){
@@ -42,9 +42,9 @@
     <!-- Include all compiled plugins (below), or include individual files as needed -->
     <script src="js/bootstrap.min.js"></script>
     <div class="galery-slider">
-        <div>your content</div>
-        <div>your content</div>
-        <div>your content</div>
+        <div><img src="images/img01.jpg"></div>
+        <div><img src="images/img02.jpg"></div>
+        <div><img src="images/img03.jpg"></div>
     </div>
   </body>
 </html>
