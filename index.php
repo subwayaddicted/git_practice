@@ -17,8 +17,25 @@
       <script src="https://oss.maxcdn.com/html5shiv/3.7.3/html5shiv.min.js"></script>
       <script src="https://oss.maxcdn.com/respond/1.4.2/respond.min.js"></script>
     <![endif]-->
+    <!-- script/style slider -->
+        <link rel="stylesheet" type="text/css" href="slick/slick.css"/>
+        <link rel="stylesheet" type="text/css" href="slick/slick-theme.css"/>
+
+        <script type="text/javascript" src="//code.jquery.com/jquery-1.11.0.min.js"></script>
+        <script type="text/javascript" src="//code.jquery.com/jquery-migrate-1.2.1.min.js"></script>
+        <script type="text/javascript" src="slick/slick.min.js"></script>
+
+        <script>
+            $(document).ready(function(){
+                $('.galery-slider').slick({
+                    setting-name: setting-value
+                });
+            });
+        </script>
+    <!--  -->
   </head>
   <body>
+    <?php include 'header.php';?>
     <h1>Hello, world!</h1>
 
     <!-- jQuery (necessary for Bootstrap's JavaScript plugins) -->
@@ -36,5 +53,6 @@
     </div>
     <!-- Copyright -->
     </footer>
+
   </body>
 </html>
