@@ -18,6 +18,7 @@
     <![endif]-->
   </head>
   <body>
+    <?php include 'header.php';?>
     <h1>Hello, world!</h1>
 
     <!-- jQuery (necessary for Bootstrap's JavaScript plugins) -->
